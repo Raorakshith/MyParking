@@ -95,7 +95,7 @@ public class LoginActivity extends AppCompatActivity {
     }
 
     private void SignInAccount() {
-        final String emails = email.getText().toString();
+        final String emails = "+91"+email.getText().toString()+"@gmail.com";
         String pass = password.getText().toString();
 
         if (TextUtils.isEmpty(emails)) {
